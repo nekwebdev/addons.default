@@ -1,0 +1,175 @@
+﻿[B]1.7.7[/B]
+. Fix XBMC Gotham compatibility
+
+[B]1.7.6[/B]
+. Fix PC-YourFreeTV support.
+
+[B]1.7.5[/B]
+. Fix specific webservice support
+
+[B]1.7.4[/B]
+. Add TéléduNet support.
+
+[B]1.7.3[/B]
+. Fix corrupted streams.gz file problem.
+
+[B]1.7.2[/B]
+. Fix Dailymotion channels.
+
+[B]1.7.1[/B]
+. Change python dependence to version 2.1.
+
+[B]1.7.0[/B]
+. Code restructuration (independant decoder modules).
+. Fix Dailymotion channels.
+
+[B]1.6.2[/B]
+. Fix Justin.tv channels.
+
+[B]1.6.1[/B]
+. Fix channel error display when 1st stream not working.
+
+[B]1.6.0[/B]
+. Update French translation.
+. Settings menu reorganisation.
+. Add "Force images cache refresh" option.
+
+[B]1.5.6[/B]
+. Another fix for PC-YourFreeTV support.
+
+[B]1.5.5[/B]
+. Fix PC-YourFreeTV support.
+
+[B]1.5.4[/B]
+. Add PC-YourFreeTV support.
+
+[B]1.5.3[/B]
+. Improve filtering system.
+
+[B]1.5.2[/B]
+. Add XBMC Télé Fr. icon into display dialogs.
+. Remove Filmon.tv channels support (not working anymore).
+
+[B]1.5.1[/B]
+. Fix Filmon.tv channels.
+
+[B]1.5.0[/B]
+. Add Filmon.tv support
+
+[B]1.4.2[/B]
+. Fix dailymotion channels.
+
+[B]1.4.1[/B]
+. Fix stream sources display (alphanumeric list instead of alphabetic list).
+
+[B]1.4.0[/B]
+. Add Justin TV support (thnaks to gs).
+
+[B]1.3.3[/B]
+. Display optimisation (thnaks to joemanuxbmc).
+
+[B]1.3.2[/B]
+. Fix dailymotion channels.
+
+[B]1.3.1[/B]
+. Fix dailymotion channels.
+
+[B]1.3.0[/B]
+. Add stream aspect ration information.
+. Replace stream quality by resolution information.
+. Order video sources list by resolution.
+
+[B]1.2.1[/B]
+. Remove adult content support.
+
+[B]1.2.0[/B]
+. Add dailymotion live video support.
+
+[B]1.1.2[/B]
+. Fix adult content filtering into categories.
+
+[B]1.1.1[/B]
+. Fix adult content filtering.
+
+[B]1.1.0[/B]
+. Remove multi-language support.
+. Fix socket lib dependencies missing.
+
+[B]1.0.0[/B]
+. Add streams selection option (info/stats).
+. Add option to show/hide broken streams.
+. Add submenu display and selection.
+. Use gzip compression for downloaded data.
+. Update channel infos and EPG at the same time.
+
+[B]0.2.3[/B]
+. Add thumbnail image support (logo).
+. Add channel type field (continu, discontinu, event).
+. Add type filtering option.
+. Add-on settings update.
+. Fix code indentation.
+
+[B]0.2.2[/B]
+. New logo.
+. Clean navigation transitions (windows refresh).
+
+[B]0.2.1[/B]
+. Fix Kids channels access bug.
+
+[B]0.2.0[/B]
+. Add XBMC4XBOX support.
+. Add channels list update notifications.
+. Improve EPG support.
+. Change add-on logo.
+. Remove Live Fanart support.
+
+[B]0.1.8[/B]
+. Add timezone support.
+
+[B]0.1.7[/B]
+. Modify EPG scrap method.
+. Add option the select number of displayed EPG programs.
+. URL encoding.
+. Add 30 min EPG cache.
+
+[B]0.1.6[/B]
+. Add EPG support for common channels (adsltv).
+. Add Live Fanart support for common channels (digitalbitrate).
+. Modify add-on settings menu.
+
+[B]0.1.5[/B]
+. Add option to show/hide streams requiring librtmp.
+
+[B]0.1.4[/B]
+. Add option to hide multiple streams.
+. Add option to select stream quality.
+. Add option to show/hide broken streams.
+. Add channels national order support.
+. Add full thumbnail support (channel logo).
+
+[B]0.1.3[/B]
+. Limit content to francophone channels.
+. Change add-on name.
+. Add add-on description.
+. Change add-on logo.
+
+[B]0.1.2[/B]
+. Change add-on icon.
+. Fix adult channel filtering bug.
+
+[B]0.1.1[/B]
+. Add channel list update option.
+
+[B]0.1.0[/B]
+. Add multi-language selection option.
+. Add show/hide adult content option.
+. Add directory channel selection option.
+. Add content folder support.
+. Add country folder support.
+. Add language folder support.
+
+[B]0.0.2[/B]
+. Add multi-language support (en/fr).
+
+[B]0.0.1[/B]
+. Create plugin base code.

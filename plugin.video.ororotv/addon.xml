@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.ororotv" name="Ororo TV" version="2.1.0.1" provider-name="lambda">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.metahandler" version="1.0.0"/>
+		<import addon="script.module.simplejson" version="2.0.10"/>
+		<import addon="script.common.plugin.cache" version="0.9.1"/>
+		<import addon="script.module.parsedom" version="0.9.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup">
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Watch tv shows from ororo.tv</summary>
+		<description lang="en">Watch tv shows from ororo.tv</description>
+		<summary lang="el">Παρακολουθήστε σειρές από το ororo.tv</summary>
+		<description lang="el">Παρακολουθήστε σειρές από το ororo.tv</description>
+		<summary lang="fr">Une sélection de Séries TV en Version Originale (Anglais)</summary>
+		<description lang="fr">Une sélection de Séries TV en Version Originale (Anglais)</description>
+		<summary lang="nl">Bekijk TV Series vanaf ororo.tv</summary>
+		<description lang="nl">Bekijk TV Series vanaf ororo.tv</description>
+		<summary lang="pl">Oglądaj seriale z ororo.tv</summary>
+		<description lang="pl">Oglądaj seriale z ororo.tv</description>
+		<summary lang="pt">Assistir a séries de site ororo.tv</summary>
+		<description lang="pt">Assistir a séries de site ororo.tv</description>
+		<summary lang="pt_BR">Assistir a séries de site ororo.tv</summary>
+		<description lang="pt_BR">Assistir a séries de site ororo.tv</description>
+		<summary lang="ro">Urmărește seriale de ororo.tv</summary>
+		<description lang="ro">Urmărește seriale de ororo.tv</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+		<forum>http://www.xbmchub.com/forums/lambdas-xbmc-repository/</forum>
+		<source>https://github.com/lambda81/lambda-xbmc-addons</source>
+		<website>http://www.xbmchub.com/</website>
+		<platform>all</platform>
+	</extension>
+</addon>

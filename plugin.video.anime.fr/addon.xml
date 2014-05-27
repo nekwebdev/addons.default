@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.anime.fr" name="Anime Fr" version="1.1.3" provider-name="Nek">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.metahandler" version="1.0.0"/>
+        <import addon="script.module.urlresolver" version="1.0.0"/>
+        <import addon="script.module.simplejson" version="2.0.10"/>
+        <import addon="script.common.plugin.cache" version="0.9.1"/>
+        <import addon="script.module.parsedom" version="0.9.1"/>
+        <import addon="plugin.video.youtube" version="2.9.2"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Watch japanese anime with french subtitles</summary>
+        <description lang="en">Watch japanese anime with french subtitles</description>
+        <summary lang="fr">Regardez des Anime avec sous titres en français</summary>
+        <description lang="fr">Regardez des Anime avec sous titres en français</description>
+        <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+        <disclaimer lang="fr">L'auteur n'héberge ni ne distribue aucun des contenus visionés par cet addon. L'auteur n'a aucune affiliation avec le fournisseur de contenu.</disclaimer>
+        <platform>all</platform>
+    </extension>
+</addon>

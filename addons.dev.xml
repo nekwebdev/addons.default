@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.anime.fr" name="Anime Fr" version="1.1.3" provider-name="Nek">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.metahandler" version="1.0.0"/>
+        <import addon="script.module.urlresolver" version="1.0.0"/>
+        <import addon="script.module.simplejson" version="2.0.10"/>
+        <import addon="script.common.plugin.cache" version="0.9.1"/>
+        <import addon="script.module.parsedom" version="0.9.1"/>
+        <import addon="plugin.video.youtube" version="2.9.2"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Watch japanese anime with french subtitles</summary>
+        <description lang="en">Watch japanese anime with french subtitles</description>
+        <summary lang="fr">Regardez des Anime avec sous titres en français</summary>
+        <description lang="fr">Regardez des Anime avec sous titres en français</description>
+        <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+        <disclaimer lang="fr">L'auteur n'héberge ni ne distribue aucun des contenus visionés par cet addon. L'auteur n'a aucune affiliation avec le fournisseur de contenu.</disclaimer>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="plugin.video.docuhub" version="1.2.4a" name="Docu-Hub" provider-name="[COLOR red]Blazetamer[/COLOR]">
+<requires>
+<import addon="xbmc.python" version="2.1.0"/>
+<import addon="script.module.urlresolver"  version="2.0.9"/>
+<import addon="script.module.metahandler" version="2.3.1" />
+
+</requires>
+<extension point="xbmc.python.pluginsource" library="default.py">
+<provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+<summary>DocuHub Documentary Films</summary>
+<description>Documentary Films from the Web</description>
+
+<platform>all</platform>
+</extension>
+</addon>
+
+<addon id="plugin.video.football.today" name="Football Today" version="2.1.4" provider-name="lambda">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.simplejson" version="2.0.10"/>
+		<import addon="script.common.plugin.cache" version="0.9.1"/>
+		<import addon="script.module.parsedom" version="0.9.1"/>
+		<import addon="plugin.video.youtube" version="2.9.2"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Watch football games whenever you want</summary>
+		<description lang="en">Watch football games whenever you want</description>
+		<summary lang="el">Παρακολουθήστε ποδοσφαιρικούς αγώνες ότι ώρα θέλετε</summary>
+		<description lang="el">Παρακολουθήστε ποδοσφαιρικούς αγώνες ότι ώρα θέλετε</description>
+		<summary lang="fr">Regarder les matchs de football à tout moment</summary>
+		<description lang="fr">Regarder les matchs de football à tout moment</description>
+		<summary lang="nl">Football video's kijken wanneer je wilt</summary>
+		<description lang="nl">Football video's kijken wanneer je wilt</description>
+		<summary lang="pl">Oglądaj mecze futbol gdziekolwiek zechcesz</summary>
+		<description lang="pl">Oglądaj mecze futbol gdziekolwiek zechcesz</description>
+		<summary lang="pt">Veja os jogos de futebol das principais ligas quando quiser</summary>
+		<description lang="pt">Veja os jogos de futebol das principais ligas quando quiser</description>
+		<summary lang="pt_BR">Veja os jogos de futebol das principais ligas quando quiser</summary>
+		<description lang="pt_BR">Veja os jogos de futebol das principais ligas quando quiser</description>
+		<summary lang="ro">Urmărește oricând meciuri din fotbal</summary>
+		<description lang="ro">Urmărește oricând meciuri din fotbal</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+		<forum>http://www.xbmchub.com/forums/lambdas-xbmc-repository/</forum>
+		<source>https://github.com/lambda81/lambda-xbmc-addons</source>
+		<website>http://www.xbmchub.com/</website>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.video.GOmovies" name="GOmovies" version="2.1.3.1" provider-name="lambda">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.metahandler" version="1.0.0"/>
+		<import addon="script.module.urlresolver" version="1.0.0"/>
+		<import addon="script.module.simplejson" version="2.0.10"/>
+		<import addon="script.common.plugin.cache" version="0.9.1"/>
+		<import addon="script.module.parsedom" version="0.9.1"/>
+		<import addon="plugin.video.youtube" version="2.9.2"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Watch movies from various sources</summary>
+		<description lang="en">Watch movies from various sources</description>
+		<summary lang="el">Παρακολουθήστε ταινίες από διάφορες πηγές</summary>
+		<description lang="el">Παρακολουθήστε ταινίες από διάφορες πηγές</description>
+		<summary lang="fr">Regardez des films en version originale (Anglais)</summary>
+		<description lang="fr">Regardez des films en version originale (Anglais)</description>
+		<summary lang="he">צפו בסרטים ממקורות שונים</summary>
+		<description lang="he">צפו בסרטים ממקורות שונים</description>
+		<summary lang="nl">Bekijk Speelfilms van verscheidene bronnen</summary>
+		<description lang="nl">Bekijk Speelfilms van verscheidene bronnen</description>
+		<summary lang="pl">Oglądaj filmy z różnych źródeł</summary>
+		<description lang="pl">Oglądaj filmy z różnych źródeł</description>
+		<summary lang="pt">Assistir a filmes de várias fontes</summary>
+		<description lang="pt">Assistir a filmes de várias fontes</description>
+		<summary lang="pt_BR">Assistir a filmes de várias fontes</summary>
+		<description lang="pt_BR">Assistir a filmes de várias fontes</description>
+		<summary lang="ro">Urmărește filme din diverse surse</summary>
+		<description lang="ro">Urmărește filme din diverse surse</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+		<forum>http://www.xbmchub.com/forums/lambdas-xbmc-repository/</forum>
+		<source>https://github.com/lambda81/lambda-xbmc-addons</source>
+		<website>http://www.xbmchub.com/</website>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.video.GOtv" name="GOséries" version="2.1.3.1" provider-name="lambda">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.metahandler" version="1.0.0"/>
+		<import addon="script.module.urlresolver" version="1.0.0"/>
+		<import addon="script.module.simplejson" version="2.0.10"/>
+		<import addon="script.common.plugin.cache" version="0.9.1"/>
+		<import addon="script.module.parsedom" version="0.9.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup">
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Watch tv shows from various sources</summary>
+		<description lang="en">Watch tv shows from various sources</description>
+		<summary lang="el">Παρακολουθήστε σειρές από διάφορες πηγές</summary>
+		<description lang="el">Παρακολουθήστε σειρές από διάφορες πηγές</description>
+		<summary lang="fr">Regardez des séries TV en version originale (Anglais)</summary>
+		<description lang="fr">Regardez des séries TV en version originale (Anglais)</description>
+		<summary lang="he">צפו בתכניות טלויזיה ממקורות שונים</summary>
+		<description lang="he">צפו בתכניות טלויזיה ממקורות שונים</description>
+		<summary lang="nl">Bekijk TV Series van verscheidene bronnen</summary>
+		<description lang="nl">Bekijk TV Series van verscheidene bronnen</description>
+		<summary lang="pl">Oglądaj seriale z różnych źródeł</summary>
+		<description lang="pl">Oglądaj seriale z różnych źródeł</description>
+		<summary lang="pt">Assistir a séries de várias fontes</summary>
+		<description lang="pt">Assistir a séries de várias fontes</description>
+		<summary lang="pt_BR">Assistir a séries de várias fontes</summary>
+		<description lang="pt_BR">Assistir a séries de várias fontes</description>
+		<summary lang="ro">Urmărește seriale din diverse surse</summary>
+		<description lang="ro">Urmărește seriale din diverse surse</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+		<forum>http://www.xbmchub.com/forums/lambdas-xbmc-repository/</forum>
+		<source>https://github.com/lambda81/lambda-xbmc-addons</source>
+		<website>http://www.xbmchub.com/</website>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.video.nbaondemand" name="NBA On-demand" version="1.1.6" provider-name="lambda,enen92">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.simplejson" version="2.0.10"/>
+		<import addon="script.common.plugin.cache" version="0.9.1"/>
+		<import addon="script.module.parsedom" version="0.9.1"/>
+		<import addon="plugin.video.youtube" version="2.9.2"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Watch NBA games whenever you want</summary>
+		<description lang="en">Watch NBA games whenever you want</description>
+		<summary lang="el">Παρακολουθήστε αγώνες NBA ότι ώρα θέλετε</summary>
+		<description lang="el">Παρακολουθήστε αγώνες NBA ότι ώρα θέλετε</description>
+		<summary lang="fr">Regarder les matchs de la NBA à tout moment</summary>
+		<description lang="fr">Regarder les matchs de la NBA à tout moment</description>
+		<summary lang="nl">NBA video's kijken wanneer je wilt</summary>
+		<description lang="nl">NBA video's kijken wanneer je wilt</description>
+		<summary lang="pl">Oglądaj mecze NBA gdziekolwiek zechcesz</summary>
+		<description lang="pl">Oglądaj mecze NBA gdziekolwiek zechcesz</description>
+		<summary lang="pt">Assista aos jogos da NBA quando quiser</summary>
+		<description lang="pt">Assista aos jogos da NBA quando quiser</description>
+		<summary lang="pt_BR">Assista aos jogos da NBA quando quiser</summary>
+		<description lang="pt_BR">Assista aos jogos da NBA quando quiser</description>
+		<summary lang="ro">Urmărește oricând meciuri din NBA</summary>
+		<description lang="ro">Urmărește oricând meciuri din NBA</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+		<forum>http://www.xbmchub.com/forums/lambdas-xbmc-repository/</forum>
+		<source>https://github.com/lambda81/lambda-xbmc-addons</source>
+		<website>http://www.xbmchub.com/</website>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.video.nhlondemand" name="NHL On-demand" version="1.0.0" provider-name="lambda">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.simplejson" version="2.0.10"/>
+		<import addon="script.common.plugin.cache" version="0.9.1"/>
+		<import addon="script.module.parsedom" version="0.9.1"/>
+		<import addon="plugin.video.youtube" version="2.9.2"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Watch NHL games whenever you want</summary>
+		<description lang="en">Watch NHL games whenever you want</description>
+		<summary lang="el">Παρακολουθήστε αγώνες NHL ότι ώρα θέλετε</summary>
+		<description lang="el">Παρακολουθήστε αγώνες NHL ότι ώρα θέλετε</description>
+		<summary lang="fr">Regarder les matchs de la NHL à tout moment</summary>
+		<description lang="fr">Regarder les matchs de la NHL à tout moment</description>
+		<summary lang="nl">NHL video's kijken wanneer je wilt</summary>
+		<description lang="nl">NHL video's kijken wanneer je wilt</description>
+		<summary lang="pl">Oglądaj mecze NHL gdziekolwiek zechcesz</summary>
+		<description lang="pl">Oglądaj mecze NHL gdziekolwiek zechcesz</description>
+		<summary lang="pt">Assista aos jogos da NHL quando quiser</summary>
+		<description lang="pt">Assista aos jogos da NHL quando quiser</description>
+		<summary lang="pt_BR">Assista aos jogos da NHL quando quiser</summary>
+		<description lang="pt_BR">Assista aos jogos da NHL quando quiser</description>
+		<summary lang="ro">Urmărește oricând meciuri din NHL</summary>
+		<description lang="ro">Urmărește oricând meciuri din NHL</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+		<forum>http://www.xbmchub.com/forums/lambdas-xbmc-repository/</forum>
+		<source>https://github.com/lambda81/lambda-xbmc-addons</source>
+		<website>http://www.xbmchub.com/</website>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.video.ororotv" name="Ororo TV" version="2.1.0.1" provider-name="lambda">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.metahandler" version="1.0.0"/>
+		<import addon="script.module.simplejson" version="2.0.10"/>
+		<import addon="script.common.plugin.cache" version="0.9.1"/>
+		<import addon="script.module.parsedom" version="0.9.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup">
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Watch tv shows from ororo.tv</summary>
+		<description lang="en">Watch tv shows from ororo.tv</description>
+		<summary lang="el">Παρακολουθήστε σειρές από το ororo.tv</summary>
+		<description lang="el">Παρακολουθήστε σειρές από το ororo.tv</description>
+		<summary lang="fr">Une sélection de Séries TV en Version Originale (Anglais)</summary>
+		<description lang="fr">Une sélection de Séries TV en Version Originale (Anglais)</description>
+		<summary lang="nl">Bekijk TV Series vanaf ororo.tv</summary>
+		<description lang="nl">Bekijk TV Series vanaf ororo.tv</description>
+		<summary lang="pl">Oglądaj seriale z ororo.tv</summary>
+		<description lang="pl">Oglądaj seriale z ororo.tv</description>
+		<summary lang="pt">Assistir a séries de site ororo.tv</summary>
+		<description lang="pt">Assistir a séries de site ororo.tv</description>
+		<summary lang="pt_BR">Assistir a séries de site ororo.tv</summary>
+		<description lang="pt_BR">Assistir a séries de site ororo.tv</description>
+		<summary lang="ro">Urmărește seriale de ororo.tv</summary>
+		<description lang="ro">Urmărește seriale de ororo.tv</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+		<forum>http://www.xbmchub.com/forums/lambdas-xbmc-repository/</forum>
+		<source>https://github.com/lambda81/lambda-xbmc-addons</source>
+		<website>http://www.xbmchub.com/</website>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.video.tele.fr" name="Télé Fr." version="1.7.7.1" provider-name="Angelscry">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <disclaimer>For XBMC Gotham/Eden/Frodo</disclaimer>
+        <summary lang="en">Watch live French channels.</summary>
+        <summary lang="fr">Regarder des chaines francophones en direct.</summary>
+        <description lang="en">This add-on proposes to view most of the French channels (France, Canada, Belgium, Switzerland, Monaco, etc ...) from live video streams available on the internet. The proposed channels are classified by content with a detailed description.</description>
+        <description lang="fr">Cet add-on vous propose de regarder la plupart des chaines francophones (France, Canada, Belgique, Suisse, Monaco, etc...) en direct à partir des flux video disponibles sur internet. Les chaines proposées sont classées par contenu avec une description detaillée.</description>
+    </extension>
+</addon>
+
+<addon id="plugin.video.tv.inter" name="Télé International" version="1.0.1.1" provider-name="Angelscry">
+    <requires>
+        <import addon="xbmc.python" version="2.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <disclaimer>For XBMC Eden/Frodo</disclaimer>
+        <summary lang="en">Watch live International channels.</summary>
+        <description lang="en">This add-on proposes to view most of the international channels from live video streams available on the internet. The proposed channels are classified by content with a detailed description.</description>
+    </extension>
+</addon>
+
+<addon id="plugin.video.veetle" version="0.2.5" name="Veetle" provider-name="t0mm0">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.simplejson" version="2.0.10"/>
+        <import addon="script.common.plugin.cache" version="1.3.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point= "xbmc.addon.metadata">
+        <summary>Browse and stream from veetle.com</summary>
+        <description>Enables watching streams on veetle.com that are flash enabled.</description>
+        <disclaimer>Does not work for 'HD' streams which require a software download.</disclaimer>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon
+  id="plugin.video.videodevil"
+  version="1.7.86"
+  name="VideoDevil"
+  provider-name="xbmc-adult">
+  <requires>
+   <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension
+    point="xbmc.python.pluginsource"
+    library="default.py">
+   <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Play videos from different adult streaming sites</summary>
+    <description>This addon plays videos from YouPorn, Tube8, Boysfood, MoviesAnd, PornoTube, xHamster, KeezMovies and some other adult streaming sites. It contains explicit adult material. You may only view this addon if you are at least 18 years of age, or at least the age of majority in the jurisdiction where you reside or from which you access this content. If you do not meet these requirements, then you do not have permission to use this addon.</description>
+    <disclaimer>The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.yifymovies.hd" name="Yify Movies HD" version="1.5.1.1" provider-name="lambda">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.metahandler" version="1.0.0"/>
+		<import addon="script.module.urlresolver" version="1.0.0"/>
+		<import addon="script.module.simplejson" version="2.0.10"/>
+		<import addon="script.common.plugin.cache" version="0.9.1"/>
+		<import addon="script.module.parsedom" version="0.9.1"/>
+		<import addon="plugin.video.youtube" version="2.9.2"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Watch a wide selection of movies from yify.tv</summary>
+		<description lang="en">Watch a wide selection of movies from yify.tv</description>
+		<summary lang="el">Παρακολουθήστε μια ευρεία συλλογή ταινιών από το yify.tv</summary>
+		<description lang="el">Παρακολουθήστε μια ευρεία συλλογή ταινιών από το yify.tv</description>
+		<summary lang="fr">Regardez des films en version originale (Anglais)</summary>
+		<description lang="fr">Regardez des films en version originale (Anglais)</description>
+		<summary lang="nl">Bekijk Speelfilms vanaf yify.tv</summary>
+		<description lang="nl">Bekijk Speelfilms vanaf yify.tv</description>
+		<summary lang="pl">Oglądaj filmy z yify.tv</summary>
+		<description lang="pl">Oglądaj filmy z yify.tv</description>
+		<summary lang="pt">Assistir a uma vasta selecção de filmes do site yify.tv</summary>
+		<description lang="pt">Assistir a uma vasta selecção de filmes do site yify.tv</description>
+		<summary lang="pt_BR">Assistir a uma vasta selecção de filmes do site yify.tv</summary>
+		<description lang="pt_BR">Assistir a uma vasta selecção de filmes do site yify.tv</description>
+		<summary lang="ro">Urmărește filme de yify.tv</summary>
+		<description lang="ro">Urmărește filme de yify.tv</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+		<forum>http://www.xbmchub.com/forums/lambdas-xbmc-repository/</forum>
+		<source>https://github.com/lambda81/lambda-xbmc-addons</source>
+		<website>http://www.xbmchub.com/</website>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.bluecop.xbmc-plugins" name="bluecop Add-on Repository" version="1.0.1" provider-name="bluecop">
+	<extension point="xbmc.addon.repository" name="bluecop Add-on Repository">
+		<info compressed="false">http://bluecop-xbmc-repo.googlecode.com/svn/trunk/addons.xml</info>
+		<checksum>http://bluecop-xbmc-repo.googlecode.com/svn/trunk/addons.xml.md5</checksum>
+		<datadir zip="false">http://bluecop-xbmc-repo.googlecode.com/svn/trunk/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install Add-ons from bluecop Add-on Repository</summary>
+		<description>Video plug-ins for XBMC</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.SportsDevil" name="SportsDevil repository" version="1.0.0" provider-name="Al101">
+	<extension point="xbmc.addon.repository" name="SportsDevil add-on repository">
+		<info compressed="false">http://github.com/al101/repository.SportsDevil/raw/master/addons.xml</info>
+		<checksum>http://github.com/al101/repository.SportsDevil/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://github.com/al101/repository.SportsDevil/raw/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install Unofficial SportsDevil add-on</summary>
+		<description>Created by MaxMustermann maintained by XBMCHUB.COM community (enen92, jorges4lu2, alex35...)</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="script.module.httplib2"
+       name="httplib2"
+       version="0.7.1.1"
+       provider-name="Joe Gregario">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+  </extension>
+</addon>
+</addons>
