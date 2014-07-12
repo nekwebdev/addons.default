@@ -254,6 +254,26 @@
 	</extension>
 </addon>
 
+<addon id="plugin.video.nugporn"
+	name="NugPorn"
+	version="1.0.2"
+	provider-name="xbmchub.com">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">NugPorn</summary>
+    <description lang="en">Fine Strain Showcases and Medical Marijuana Culture Served Regularly!</description>
+    <platform>all</platform>
+    <forum>http://www.xbmchub.com/forums/official-xbmc-hub-repo/</forum>
+    <website>http://www.xbmchub.com/</website>
+  </extension>
+</addon>
+
 <addon id="plugin.video.ororotv" name="Ororo TV" version="2.1.0.1" provider-name="lambda">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
