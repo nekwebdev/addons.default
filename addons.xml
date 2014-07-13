@@ -388,23 +388,6 @@
 	</extension>
 </addon>
 
-<addon id="repository.ILVideo" name="Israeli Internet Streams" version="1.0.0" provider-name="sbentin">
-    <extension point="xbmc.addon.repository" name="ILVideo, Isreali Video, Live streams">
-        <info compressed="true">http://ilvideo.googlecode.com/svn/trunk/addons.xml</info>
-        <checksum>http://ilvideo.googlecode.com/svn/trunk/addons.xml.md5</checksum>
-        <datadir zip="true">http://ilvideo.googlecode.com/svn/trunk/</datadir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary lang="en">A repository for Israeli VOD content, Video Scrapes and live streaming</summary>
-        <summary lang="he">מאגר לתוכניות וידאו מהאינטרנט, "מגרדי מידע" וטלויזיה חיה באינטרנט</summary>
-        <description lang="en">A repository for Israeli VOD content that connects to the following:[CR]1. Walla video - including everything the site has to offer Yes, Nicolodeon, Sport 5 and 1 and more. currently does not include MTV[CR]2. Nana10 - All the TV shows from channel 10{CR]3. Mako - MOst videos from Mako. Because mako blocks its new shows currently showing the old shows although listing the new shows to. Be aware that some of the streams from Mako may get XBMC stuck[CR]4. Live video streams of channel 10, 22[CR]5. Scraper for movies that connects to Torec[CR][CR]Please report issues on google code project http://ilVideo.googlecode.com/</description>
-        <description lang="he">מאגר לתוכניות וידאו מהאינטרנט הכולל את:[CR]ואללה - כל התוכניות כולל YES, ניקולדאון, ספורט 5, ספורט 1, ועוד, לא כולל MTV[CR]נענע 10 - כל התוכניות של ערוץ 10 הניתנות לצפייה[CR]מאקו - כל התוכניות של מאקו. חלק מהתוכניות מופיעות אך אינן ניתנות לצפייה עקב חסימה שעדיין לא התגברנו עליה. יש להיזהר, חלק מהתוכניות עלולות לתקוע את XMBC עדיין לא ברור למה.[CR]שידורים חיים של ערוץ 10 וערוץ 2[CR]מוריד מידע על סרטים המתחבר לאתר של טורק[CR][CR]ניתן לדווח על כל בעיה באתר: http://ilVideo.googlecode.com/</description>
-        <disclaimer lang="en">All addons are supplied as is. Use them at your own risk</disclaimer>
-        <disclaimer lang="he">כל התוספים ניתנים כפי שהם. כל שימוש בהם הוא באחריות המשתמש בלבד</disclaimer>
-    </extension>
-</addon>
-
 <addon id="repository.SportsDevil" name="SportsDevil repository" version="1.0.0" provider-name="Al101">
 	<extension point="xbmc.addon.repository" name="SportsDevil add-on repository">
 		<info compressed="false">http://github.com/al101/repository.SportsDevil/raw/master/addons.xml</info>
@@ -417,19 +400,6 @@
 		<disclaimer></disclaimer>
 		<platform>all</platform>
 	</extension>
-</addon>
-
-<addon id="repository.xbmc-israel" name="XBMC Israeli Streaming Sites" version="1.0.2" provider-name="cubicle-vdo">
-    <extension point="xbmc.addon.repository" name="XBMC Israeli streaming repo for streaming sites">
-        <info compressed="false">https://github.com/cubicle-vdo/xbmc-israel/raw/master/addons.xml</info>
-        <checksum>https://github.com/cubicle-vdo/xbmc-israel/raw/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://github.com/cubicle-vdo/xbmc-israel/raw/master/repo</datadir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>XBMC Israeli Streaming Sites</summary>
-        <description>Download and install addons for XBMC Israeli streaming repo for streaming sites</description>
-        <platform>all</platform>
-    </extension>
 </addon>
 
 <addon id="script.module.httplib2"
