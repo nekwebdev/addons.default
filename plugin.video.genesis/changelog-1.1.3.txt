@@ -1,0 +1,125 @@
+------------------------
+Genesis v1.1.3 (22-Jul-14)
+------------------------
+
+- Fixed "Latest Movies".
+- Tweaked Trakt "Latest episodes".
+- Updated translations.
+- Code cosmetics.
+
+
+------------------------
+Genesis v1.1.2 (19-Jul-14)
+------------------------
+
+- Added RealDedrid support.
+- Added Deep Blue theme.
+- Added option for disabling HD Hosts.
+- Fixed issue with library update.
+- Tweaked Auto-play.
+- Tweaked addon's settings.
+- Updated translations.
+- Code cosmetics.
+
+
+------------------------
+Genesis v1.1.1 (16-Jul-14)
+------------------------
+
+- Tweaked library update.
+- Added Progress bar in library import/update.
+- Tweaked season listings.
+- Updated themes.
+- Updated translations.
+- Added Dutch translation.
+- Code cosmetics.
+
+
+------------------------
+Genesis v1.1.0 (14-Jul-14)
+------------------------
+
+- Added Aztec theme.
+- Added Tools section.
+- Tweaked Highly Rated TV shows.
+- Tweaked Trakt "Latest episodes".
+- Tweaked loading of all listings.
+- Tweaked genre listings.
+- Tweaked season listings.
+- Tweaked episode listings.
+- Tweaked search menus.
+- Updated Portuguese translation.
+- Code cosmetics.
+
+
+------------------------
+Genesis v1.0.7 (12-Jul-14)
+------------------------
+
+- Added French translation.
+- Updated Portuguese translation.
+- Code cosmetics.
+
+
+------------------------
+Genesis v1.0.6 (11-Jul-14)
+------------------------
+
+- Fixed issues with search from XBMC favourites.
+- Added support for "Latest episodes" of Trakt accounts.
+- Added options for "Latest episodes" (Trakt, TV Folder).
+- Tweaked My Genesis menus.
+- Code cosmetics.
+
+
+------------------------
+Genesis v1.0.5 (9-Jul-14)
+------------------------
+
+- Fixed issue with library import.
+- Code cosmetics.
+
+
+------------------------
+Genesis v1.0.4 (9-Jul-14)
+------------------------
+
+- Tweaked tv show listings.
+- Added Portuguese translation.
+- Code cosmetics.
+
+
+------------------------
+Genesis v1.0.3 (8-Jul-14)
+------------------------
+
+- Tweaked season listings.
+- Tweaked episode listings.
+- Fixed missing episode listings.
+- Fixed issue with playback offset.
+- Code cosmetics.
+
+
+------------------------
+Genesis v1.0.2 (8-Jul-14)
+------------------------
+
+- Fixed issue with resolvers.
+- Code cosmetics.
+
+
+------------------------
+Genesis v1.0.1 (7-Jul-14)
+------------------------
+
+- Tweaked season listings.
+- Tweaked episode listings.
+- Tweaked firedrive resolver.
+- Code cosmetics.
+
+
+------------------------
+Genesis v1.0.0 (7-Jul-14)
+------------------------
+
+- Initial version
