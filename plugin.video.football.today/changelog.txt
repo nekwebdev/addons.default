@@ -1,4 +1,12 @@
 ------------------------
+Football Today v2.1.5 (18-Sep-14)
+------------------------
+
+- Fixed playback issues.
+- Code cosmetics.
+
+
+------------------------
 Football Today v2.1.4 (29-Mar-14)
 ------------------------
 
